@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-dotnet new console -o 0-new_project
+# Initializes a new C# project inside a folder titled 0-new_project.
+dotnet new console --output 0-new_project
