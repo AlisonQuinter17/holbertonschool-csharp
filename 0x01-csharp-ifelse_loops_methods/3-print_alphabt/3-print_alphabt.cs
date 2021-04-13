@@ -13,7 +13,6 @@ namespace _3_print_alphabt
                     Console.Write(i);
                 }
             }
-            Console.Write("carrie");
         }
     }
 }
