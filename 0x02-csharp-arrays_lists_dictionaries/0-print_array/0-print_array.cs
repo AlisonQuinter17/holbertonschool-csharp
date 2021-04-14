@@ -9,7 +9,7 @@ class Array
 
         if (size == 0)
         {
-            Console.WriteLine(" ");
+            Console.Write("\n");
             return (array_completed);
         }
         else if (size < 0)
