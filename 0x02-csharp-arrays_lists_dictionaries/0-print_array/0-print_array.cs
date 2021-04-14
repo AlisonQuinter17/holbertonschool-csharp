@@ -20,14 +20,7 @@ class Array
         while (i < size)
         {
             array_completed[i] = i;
-            if (i == size - 1)
-            {
-                Console.Write("{0}\n", i);
-            }
-            else
-            {
-                Console.Write("{0} ", i);
-            }
+            Console.Write("{0}{1}", i, i == size - 1 ? "\n" : " ");
             i++;
         }
         return (array_completed);
