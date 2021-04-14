@@ -12,7 +12,7 @@ class Array
             Console.Write("\n");
             return (array_completed);
         }
-        else if (size < 0)
+        if (size < 0)
         {
             Console.WriteLine("Size cannot be negative");
             return (null);
