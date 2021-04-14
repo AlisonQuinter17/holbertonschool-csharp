@@ -1,12 +1,14 @@
 ﻿using System;
 
-namespace _1_element_at
+class Array
 {
-    class Program
+    public static int elementAt(int[] array, int index)
     {
-        static void Main(string[] args)
+        if (index >= array.Length || index < 0)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("Index out of range");
+            return (-1);
         }
+        return (array[index]);
     }
 }
