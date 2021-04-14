@@ -10,6 +10,7 @@ class Array
         if (size == 0)
         {
             Console.WriteLine(" ");
+            return (array_completed);
         }
         else if (size < 0)
         {
