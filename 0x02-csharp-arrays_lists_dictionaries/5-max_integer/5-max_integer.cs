@@ -5,10 +5,12 @@ class List
 {
     public static int MaxInteger(List<int> myList)
     {
-        int max = 0;
-
+        if (myList.Count == 0)
+        {
+            Console.Write("List is empty");
+            return (-1);
+        }
         myList.Sort();
-        max = myList.Count - 1;
-        return (myList[max]);
+        return (myList[myList.Count - 1]);
     }
 }
