@@ -5,6 +5,7 @@ class Array
     public static int[] CreatePrint(int size)
     {
         int[] array_completed = new int[size];
+        int i = 0;
 
         if (size == 0)
         {
@@ -16,7 +17,7 @@ class Array
             return (null);
         }
 
-        for (int i = 0; i < size; i++)
+        while (i < size)
         {
             array_completed[i] = i;
             if (i == size - 1)
@@ -27,6 +28,7 @@ class Array
             {
                 Console.Write("{0} ", i);
             }
+            i++;
         }
         return (array_completed);
     }
