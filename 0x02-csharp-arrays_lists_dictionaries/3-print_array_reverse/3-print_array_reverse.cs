@@ -12,7 +12,7 @@ class Array
 
         for (int i = array.Length - 1; i >= 0; i--)
         {
-            Console.Write("{0} ", array[i]);
+            Console.Write("{0}{1}", array[i], i == 0 ? "\n" : " ");
         }
     }
 }
