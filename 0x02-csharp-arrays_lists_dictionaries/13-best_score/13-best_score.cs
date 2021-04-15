@@ -12,12 +12,13 @@ class Dictionary
         {
             return ("None");
         }
-        foreach (KeyValuePair<string, int> i in myList)
+
+        foreach (KeyValuePair<string, int> item in myList)
         {
-            if (i.Value >= value)
+            if (item.Value >= value)
             {
-                key = i.Key;
-                value = i.Value;
+                key = item.Key;
+                value = item.Value;
             }
         }
         return (key);
