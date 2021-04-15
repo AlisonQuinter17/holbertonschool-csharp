@@ -15,6 +15,10 @@ namespace _14_rectangular_array
                     {
                         Console.Write("1 ");
                     }
+                    else if (j > 4)
+                    {
+                        Console.Write("\n");
+                    }
                     else
                     {
                         Console.Write("{0} ", multidimensional_array[i, j]);
