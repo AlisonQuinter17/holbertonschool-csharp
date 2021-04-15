@@ -1,12 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
-namespace _12_print_sorted_dictionary
+class Dictionary
 {
-    class Program
+    public static void PrintSorted(Dictionary<string, string> myDict)
     {
-        static void Main(string[] args)
+        foreach (KeyValuePair<string, string> s in myDict.OrderBy(key => key.Key))
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("{0}: {1}", s.Key, s.Value);
         }
     }
 }
