@@ -6,7 +6,22 @@ namespace _14_rectangular_array
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[,] multidimensional_array = new int[5,5];
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    if (i == 2 && j == 2)
+                    {
+                        Console.Write("1 ");
+                    }
+                    else
+                    {
+                        Console.Write("{0} ", multidimensional_array[i, j]);
+                    }
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
