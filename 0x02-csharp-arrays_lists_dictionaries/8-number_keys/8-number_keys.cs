@@ -1,12 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace _8_number_keys
+class Dictionary
 {
-    class Program
+    public static int NumberOfKeys(Dictionary<string, string> myDict)
     {
-        static void Main(string[] args)
+        int total_keys = 0;
+
+        foreach (var item in myDict)
         {
-            Console.WriteLine("Hello World!");
+            total_keys += 1;
         }
+        return (total_keys);
     }
 }
