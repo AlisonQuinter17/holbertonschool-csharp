@@ -19,7 +19,7 @@ class LList
                 return (new_node);
             }
         }
-        myLList.AddFirst(n);
+        myLList.AddLast(n);
         return (new_node);
     }
 }
