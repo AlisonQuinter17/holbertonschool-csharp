@@ -19,7 +19,7 @@ class LList
                 return myLList.First;
             }
         }
-        myLList.AddLast(n);
+        myLList.AddFirst(n);
         return myLList.First;
     }
 }
