@@ -9,7 +9,7 @@ class LList
 
         foreach (int node in myLList)
         {
-            total_nodes += node;
+            total_nodes += 1;
         }
         return (total_nodes);
     }
