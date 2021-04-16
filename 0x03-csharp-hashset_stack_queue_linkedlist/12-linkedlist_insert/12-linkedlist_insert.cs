@@ -7,7 +7,7 @@ class LList
     {
         LinkedListNode<int> new_node = myLList.First;
 
-        while (new_node != null)
+        while (new_node != null || myLList.First.Value < new_node.Value)
         {
             if (new_node.Value < n)
             {
@@ -19,7 +19,7 @@ class LList
                 return myLList.First;
             }
         }
-        myLList.AddFirst(n);
+        myLList.AddLast(n);
         return myLList.First;
     }
 }
