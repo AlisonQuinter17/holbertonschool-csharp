@@ -5,12 +5,12 @@ class LList
 {
     public static int Length(LinkedList<int> myLList)
     {
-        var total = 0;
+        var total_nodes = 0;
 
-        foreach (int i in myLList)
+        foreach (int node in myLList)
         {
-            total += 1;
+            total_nodes += node;
         }
-        return (total);
+        return (total_nodes);
     }
 }
