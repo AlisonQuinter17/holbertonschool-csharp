@@ -16,10 +16,10 @@ class LList
             else
             {
                 myLList.AddBefore(new_node, n);
-                return myLList.First;
+                return (new_node);
             }
         }
         myLList.AddLast(n);
-        return myLList.First;
+        return (myLList.First);
     }
 }
