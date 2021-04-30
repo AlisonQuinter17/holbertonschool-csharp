@@ -1,18 +1,48 @@
 using NUnit.Framework;
 
-namespace Tests
+namespace MyMath.Test
 {
-    public class Tests
+    [TestFixture]
+    /// <summary> Tests. </summary>
+    public class OperationsTests
     {
-        [SetUp]
-        public void Setup()
+        [Test]
+        public void positiveInt()
         {
+            int result = Operations.Add(4, 7);
+            Assert.AreEqual(11, result);
         }
 
         [Test]
-        public void Test1()
+        public void negativeInt()
         {
-            Assert.Pass();
+            int result = Operations.Add(4, -7);
+            Assert.AreEqual(-3, result);
+        }
+
+        [Test]
+        public void bothNegativeInt()
+        {
+            int result = Operations.Add(-6, -3);
+
+            Assert.AreEqual(-9, result);
+        }
+
+        [Test]
+        public void CeroInt()
+        {
+            int result = Operations.Add(0, -15);
+
+            Assert.AreEqual(-15, result);
+        }
+
+         [Test]
+        
+        public void BothCeroInt()
+        {
+            int result = Operations.Add(0, 0);
+
+            Assert.AreEqual(0, result);
         }
     }
 }
