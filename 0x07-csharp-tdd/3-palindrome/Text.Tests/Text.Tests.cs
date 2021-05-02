@@ -1,8 +1,8 @@
 using NUnit.Framework;
 
-namespace MyMath.Tests
+namespace Text.Tests
 {
-    public class Tests
+    public class StrTests
     {
         [SetUp]
         public void Setup()
