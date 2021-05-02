@@ -13,7 +13,7 @@ namespace MyMath
         {
             int max = 0;
 
-            if (nums == null)
+            if (nums == null || nums.Count <= 0)
             {
                 return (0);
             }
