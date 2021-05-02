@@ -3,7 +3,7 @@ using NUnit.Framework;
 namespace MyMath.Tests
 {
     [TestFixture]
-    /// <summary>Tests Alz</summary>
+    /// <summary> Tests. </summary>
     public class MatrixTests
     {
         [Test]
