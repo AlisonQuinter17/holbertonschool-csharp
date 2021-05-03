@@ -1,12 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace _0_is
+///<summary> Public class. </summary>
+class Obj
 {
-    class Program
+    /// <summary> Prototype. </summary>
+    /// <param name="obj"> Object. </param>
+    /// <returns> True if the object is an int, otherwise return False. </returns>
+    public static bool IsOfTypeInt(object obj)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        return (obj.GetType() == typeof(int));
     }
 }
