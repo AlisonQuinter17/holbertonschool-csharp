@@ -7,34 +7,24 @@ namespace Text
     public class Str
     {
         /// <summary> Prototype. </summary>
-        /// <param name="s"> String to reverse. </param>
-        /// <returns> Index of first non-repeating character or -1 if there is no non-repeating character. </returns>
+        /// <param name="s"> String. </param>
+        /// <returns> Number of words in s. </returns>
 
-        public static int UniqueChar(string s)
+        public static int CamelCase(string s)
         {
-            if (s == "" || s == null)
+            if(s == "" || s == null)
             {
-                return (-1);
+                return(0);
             }
-            s = s.ToLower();
-            char[] arr = s.ToCharArray();
-            int x;
-            
-            for (int y = 0; y <= arr.Length - 1; y++)
+            int count = 1;
+            for(int i = 0; i < s.Length; i++)
             {
-                x = 0;
-                for (int z = 0; z <= arr.Length - 1; z++)
+                if(char.IsUpper(s[i]) == true)
                 {
-                    if (y != z)
-                        if (arr[y] == arr[z])
-                        {
-                            x += 1;
-                        }
+                    count ++;
                 }
-                if (x == 0)
-                    return (y);
             }
-            return (-1);
+            return(count);
         }
     }
 }
