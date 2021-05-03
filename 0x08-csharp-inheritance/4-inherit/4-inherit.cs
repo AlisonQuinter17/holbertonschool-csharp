@@ -1,12 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace _4_inherit
+/// <summary> Base class Animal. </summary>
+class Animal
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
+    // empty
+}
+
+/// <summary> Derived Class Dog. </summary>
+class Dog:Animal
+{
+    // empty
 }
