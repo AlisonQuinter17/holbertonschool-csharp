@@ -4,7 +4,7 @@ using System.Reflection;
 
 class Obj
 {
-    /// <summary> Prototype. </summary>
+    /// <summary> Prints the names of the available properties and methods of an object. </summary>
     /// <param name="myObj"> Object. </param>
     public static void Print(object myObj)
     {
