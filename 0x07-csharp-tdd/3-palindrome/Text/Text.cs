@@ -1,28 +1,32 @@
 ﻿using System;
+using System.Globalization;
+using System.Text.RegularExpressions;
 
 namespace Text
 {
-    ///<summary> Public class. </summary>
+    ///<summary>method verified palindrome</summary>
     public class Str
     {
-        /// <summary> Max integer. </summary>
-        /// <param name="s"> String to reverse. </param>
-        /// <returns> True if string is a palindrome, False if it’s not. </returns>
+        /// <summary>Max integer</summary>
+        /// <param name="s">string</param>
+        /// <returns>True if string is a palindrome, False if it’s not</returns>
+
         public static bool IsPalindrome(string s)
         {
-            string lower_string = s.ToLower();
-            lower_string = Regex.Replace(lower_string, "[:;,. \t\n\r]", "");
-            char[] s_reversed = lower_string.ToCharArray();
-            Array.Reverse(s_reversed);
+            string s2 = s.ToLower();
+            s2 = Regex.Replace(s2, "[:;,. \t\n\r]", "");
+            int Length = s2.Length - 1;
+            string reverse = "";  
 
-            if (s == s_reversed || s == "")
-            {
-                return (true);
+            while(Length>=0)  
+            {  
+                reverse = reverse + s2[Length];  
+                Length--;  
             }
+            if (s2 == reverse)
+                return true;
             else
-            {
-                return (false);
-            }
+                return false;
         }
     }
 }
