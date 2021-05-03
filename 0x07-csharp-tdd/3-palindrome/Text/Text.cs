@@ -18,7 +18,7 @@ namespace Text
             char[] s_reversed = lower_string.ToCharArray();
             Array.Reverse(s_reversed);
 
-            if (s == s_reversed || s == "")
+            if (s == s_reversed)
             {
                 return (true);
             }
