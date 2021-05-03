@@ -4,46 +4,63 @@ namespace Text.Tests
 {
     [TestFixture]
     /// <summary> Tests. </summary>
-    public class Tests
+    public class StrTests
     {
         [Test]
-        public void ispalindrome()
+        public void firstUnique()
         {
-            string s = "Reconocer";
-            
-            bool result = Str.IsPalindrome(s);
+            string s = "abebe";
 
-            Assert.AreEqual(true, result);
+            int result = Str.UniqueChar(s);
+
+            Assert.AreEqual(0, result);
         }
 
         [Test]
-        public void notpalindrome()
+        public void uniqueEnd()
         {
-            string s = "Watermelon";
-            
-            bool result = Str.IsPalindrome(s);
+            string s = "ababr";
 
-            Assert.AreEqual(false, result);
+            int result = Str.UniqueChar(s);
+
+            Assert.AreEqual(4, result);
         }
 
         [Test]
-        public void punctuation()
+        public void oneLetter()
         {
-            string s = "A man, a plan, a canal: Panama.";
-            
-            bool result = Str.IsPalindrome(s);
+            string s = "e";
 
-            Assert.AreEqual(true, result);
+            int result = Str.UniqueChar(s);
+
+            Assert.AreEqual(0, result);
         }
-
         [Test]
-        public void empty()
+        public void Empty()
         {
             string s = "";
-            
-            bool result = Str.IsPalindrome(s);
 
-            Assert.AreEqual(true, result);
+            int result = Str.UniqueChar(s);
+
+            Assert.AreEqual(-1, result);
+        }
+        [Test]
+        public void noneUnique()
+        {
+            string s = "ababenen";
+
+            int result = Str.UniqueChar(s);
+
+            Assert.AreEqual(-1, result);
+        }
+        [Test]
+        public void midUnique()
+        {
+            string s = "holaphola";
+
+            int result = Str.UniqueChar(s);
+
+            Assert.AreEqual(4, result);
         }
     }
 }
