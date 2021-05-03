@@ -1,12 +1,59 @@
 ﻿using System;
 
-namespace _7_shape
+/// <summary> Class Shape. </summary>
+class Shape
 {
-    class Program
+    /// <summary> The exception that is thrown when a requested method or operation is not implemented. </summary>
+    public virtual int Area()
     {
-        static void Main(string[] args)
+        throw new NotImplementedException("Area() is not implemented");
+    }
+}
+
+/// <summary> Class Rectangle that inherits from Shape. </summary>
+class Rectangle : Shape
+{
+    // Private fields
+    private int width;
+    private int height;
+
+    // public properties
+    public int Width
+    {
+        get
         {
-            Console.WriteLine("Hello World!");
+            return (width);
         }
+        set
+        {
+            if (value < 0)
+            {
+                throw new ArgumentException("Width must be greater than or equal to 0");
+            }
+            width = value;
+        }
+    }
+    public int Height
+    {
+        get
+        {
+            return (height);
+        }
+        set
+        {
+            if (value < 0)
+            {
+                throw new ArgumentException("Height must be greater than or equal to 0");
+            }
+            height = value;
+        }
+    }
+    public new int Area()
+    {
+        return width * height;
+    }
+    public override string ToString()
+    {
+        return string.Format("[Rectangle] {} / {}", width, height);
     }
 }
