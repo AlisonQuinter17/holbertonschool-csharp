@@ -1,34 +1,45 @@
 using NUnit.Framework;
-using System.Globalization;
 
 namespace Text.Tests
 {
     [TestFixture]
-    /// <summary>Tests Alz</summary>
+    /// <summary> Tests. </summary>
     public class Tests
     {
         [Test]
-        public void xempty()
+        public void ispalindrome()
         {
-            string s = "";
+            string s = "Reconocer";
             
             bool result = Str.IsPalindrome(s);
 
             Assert.AreEqual(true, result);
         }
+
         [Test]
-        public void xis()
+        public void notpalindrome()
         {
-            string s = "Racecar";
+            string s = "Watermelon";
             
             bool result = Str.IsPalindrome(s);
 
-            Assert.AreEqual(true, result);
+            Assert.AreEqual(false, result);
         }
+
         [Test]
-        public void xnotis()
+        public void punctuation()
         {
             string s = "A man, a plan, a canal: Panama.";
+            
+            bool result = Str.IsPalindrome(s);
+
+            Assert.AreEqual(true, result);
+        }
+
+        [Test]
+        public void empty()
+        {
+            string s = "";
             
             bool result = Str.IsPalindrome(s);
 
