@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Globalization;
 using System.Text.RegularExpressions;
 
 namespace Text
@@ -13,19 +12,19 @@ namespace Text
 
         public static bool IsPalindrome(string s)
         {
-            string lower_string = s.ToLower();
-            lower_string = Regex.Replace(lower_string, "[:;,. \t\n\r]", "");
-            char[] s_reversed = lower_string.ToCharArray();
+            s = s.ToLower();
+            s = Regex.Replace(s, "[:;,. \t\n\r]", "");
+            char[] s_reversed = s.ToCharArray();
             Array.Reverse(s_reversed);
 
-            if (s == s_reversed)
+            for (int compare = 0; compare < s.Length; compare++)
             {
-                return (true);
+                if (s[compare] != s_reversed[compare])
+                {
+                    return (false);
+                }
             }
-            else
-            {
-                return (false);
-            }
+            return (true);
         }
     }
 }
