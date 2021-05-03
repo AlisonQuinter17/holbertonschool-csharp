@@ -13,20 +13,19 @@ namespace Text
 
         public static bool IsPalindrome(string s)
         {
-            string s2 = s.ToLower();
-            s2 = Regex.Replace(s2, "[:;,. \t\n\r]", "");
-            int Length = s2.Length - 1;
-            string reverse = "";  
+            string lower_string = s.ToLower();
+            lower_string = Regex.Replace(lower_string, "[:;,. \t\n\r]", "");
+            char[] s_reversed = lower_string.ToCharArray();
+            Array.Reverse(s_reversed);
 
-            while(Length>=0)  
-            {  
-                reverse = reverse + s2[Length];  
-                Length--;  
+            if (s == s_reversed || s == "")
+            {
+                return (true);
             }
-            if (s2 == reverse)
-                return true;
             else
-                return false;
+            {
+                return (false);
+            }
         }
     }
 }
