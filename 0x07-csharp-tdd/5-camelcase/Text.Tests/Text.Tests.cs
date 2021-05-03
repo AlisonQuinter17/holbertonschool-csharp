@@ -7,60 +7,54 @@ namespace Text.Tests
     public class StrTests
     {
         [Test]
-        public void firstUnique()
+        public void Main()
         {
-            string s = "abebe";
+            string s = "hello Good Morning.";
 
-            int result = Str.UniqueChar(s);
+            int result = Str.CamelCase(s);
 
-            Assert.AreEqual(0, result);
+            Assert.AreEqual(3, result);
         }
 
         [Test]
-        public void uniqueEnd()
+        public void noCamelCase()
         {
-            string s = "ababr";
+            string s = "hello good morning";
 
-            int result = Str.UniqueChar(s);
+            int result = Str.CamelCase(s);
 
-            Assert.AreEqual(4, result);
+            Assert.AreEqual(1, result);
         }
 
         [Test]
-        public void oneLetter()
+        public void oneWord()
         {
-            string s = "e";
+            string s = "hello";
 
-            int result = Str.UniqueChar(s);
+            int result = Str.CamelCase(s);
 
-            Assert.AreEqual(0, result);
+            Assert.AreEqual(1, result);
         }
+
+
         [Test]
         public void Empty()
         {
             string s = "";
 
-            int result = Str.UniqueChar(s);
+            int result = Str.CamelCase(s);
 
-            Assert.AreEqual(-1, result);
+            Assert.AreEqual(0, result);
         }
+
         [Test]
-        public void noneUnique()
+        public void NUll()
         {
-            string s = "ababenen";
+            string s = null;
 
-            int result = Str.UniqueChar(s);
+            int result = Str.CamelCase(s);
 
-            Assert.AreEqual(-1, result);
-        }
-        [Test]
-        public void midUnique()
-        {
-            string s = "holaphola";
-
-            int result = Str.UniqueChar(s);
-
-            Assert.AreEqual(4, result);
+            Assert.AreEqual(0, result);
         }
     }
 }
