@@ -50,10 +50,10 @@ class Rectangle : Shape
     }
     public new int Area()
     {
-        return width * height;
+        return (width * height);
     }
     public override string ToString()
     {
-        return string.Format("[Rectangle] {} / {}", width, height);
+        return string.Format("[Rectangle] {0} / {1}", width, height);
     }
 }
