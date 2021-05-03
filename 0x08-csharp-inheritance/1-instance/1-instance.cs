@@ -1,12 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace _1_instance
+///<summary> Obj class. </summary>
+class Obj
 {
-    class Program
+    /// <summary> Prototype. </summary>
+    /// <param name="obj"> Object. </param>
+    /// <returns> True if the object is an instance of, or if the object is an instance of a class that inherited from, Array, otherwise return False. </returns>
+    public static bool IsInstanceOfArray(object obj)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        return (typeof(Array).IsInstanceOfType(obj));
     }
 }
