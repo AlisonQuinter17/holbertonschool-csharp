@@ -3,12 +3,12 @@ using System.Text.RegularExpressions;
 
 namespace Text
 {
-    ///<summary>method verified palindrome</summary>
+    ///<summary> Public class. </summary>
     public class Str
     {
-        /// <summary>Max integer</summary>
-        /// <param name="s">string</param>
-        /// <returns>True if string is a palindrome, False if it’s not</returns>
+        /// <summary> Prototype. </summary>
+        /// <param name="s"> String to reverse. </param>
+        /// <returns> True if string is a palindrome, False if it’s not. </returns>
 
         public static bool IsPalindrome(string s)
         {
