@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 namespace Text.Tests
 {
-    public class StrTests
+    public class Tests
     {
         [SetUp]
         public void Setup()
