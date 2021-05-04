@@ -58,19 +58,22 @@ class Rectangle : Shape
     }
 }
 
+/// <summary> Class Square that inherits from Rectangle. </summary>
 class Square : Rectangle
 {
+    // Private field
     private int size;
 
+    // public property
     public int Size
     {
-        get 
+        get
         {
             return (size);
         }
-        set 
+        set
         {
-            if ( value < 0)
+            if (value < 0)
             {
                 throw new ArgumentException("Size must be greater than or equal to 0");
             }
