@@ -107,7 +107,7 @@ x² = 64² + 121²
 x² = 4,096 + 14,641  
 x² = 18,737  
 x² = √18,737  
-Answer: **x² = 136.88**  
+**x² = 136.88** ✔️  
 
 **1. Magnitude #0 - 2D**  
 What is the length of vector v, assuming its origin is 0, 0?
@@ -121,7 +121,7 @@ v = 3² + 9²
 v = 9 + 81  
 v = 90  
 v = √90  
-Answer: **v = 9.49**  
+**v = 9.49** ✔️  
 
 **2. Magnitude #1 - 3D**  
 What is the length of v, assuming its origin is 0, 0, 0?
@@ -134,4 +134,4 @@ v = 7² + (-3)² + (-9)²
 v = 49 + 9 + 81  
 v = 139  
 v = √139  
-Answer: **v = 11.79**  
+**v = 11.79** ✔️  
