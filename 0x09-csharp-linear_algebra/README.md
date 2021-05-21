@@ -99,7 +99,7 @@ A determinant is:
 **0. Pythagoras**  
 Given the triangle ABC where **AB = 64** and **BC = 121**, what is the length of **AC**?
 
-<img src="https://github.com/AlisonQuinter17/holbertonschool-csharp/blob/main/0x09-csharp-linear_algebra/images/pythagoras.png" class="responsive" width="600px"/>
+<img src="https://github.com/AlisonQuinter17/holbertonschool-csharp/blob/main/0x09-csharp-linear_algebra/images/pythagoras.png" class="responsive" width="400px"/>
 
 **Solution**  
 x² = a² + b²  
@@ -113,7 +113,7 @@ x² = √18,737
 What is the length of vector v, assuming its origin is 0, 0?
 
 **v** = (3, 9)  
-<img src="https://github.com/AlisonQuinter17/holbertonschool-csharp/blob/main/0x09-csharp-linear_algebra/images/magnitude_2D.png" class="responsive" width="600px"/>
+<img src="https://github.com/AlisonQuinter17/holbertonschool-csharp/blob/main/0x09-csharp-linear_algebra/images/magnitude_2D.png" class="responsive" width="400px"/>
 
 **Solution**  
 v = a² + b²  
