@@ -106,8 +106,8 @@ x² = a² + b²
 x² = 64² + 121²  
 x² = 4,096 + 14,641  
 x² = 18,737  
-x² = √18,737  
-**x² = 136.88** ✔️  
+x = √18,737  
+**x = 136.88** ✔️  
 
 **1. Magnitude #0 - 2D**  
 What is the length of vector v, assuming its origin is 0, 0?
