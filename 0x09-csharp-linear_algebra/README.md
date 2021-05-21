@@ -93,3 +93,45 @@ A determinant is:
 ✔️ A number calculated from the elements of a square matrix  
 ❌ A value determining whether a matrix is square or not  
 ❌ The number of elements in a matrix  
+
+## Tasks
+
+**0. Pythagoras**  
+Given the triangle ABC where **AB = 64** and **BC = 121**, what is the length of **AC**?
+
+<img src="https://github.com/AlisonQuinter17/holbertonschool-csharp/blob/main/0x09-csharp-linear_algebra/images/pythagoras.png" class="responsive" width="400px"/>
+
+**Solution**  
+x² = a² + b²  
+x² = 64² + 121²  
+x² = 4,096 + 14,641  
+x² = 18,737  
+x = √18,737  
+**x = 136.88** ✔️  
+
+**1. Magnitude #0 - 2D**  
+What is the length of vector v, assuming its origin is 0, 0?
+
+**v** = (3, 9)  
+<img src="https://github.com/AlisonQuinter17/holbertonschool-csharp/blob/main/0x09-csharp-linear_algebra/images/magnitude_2D.png" class="responsive" width="400px"/>
+
+**Solution**  
+v = a² + b²  
+v = 3² + 9²  
+v = 9 + 81  
+v = 90  
+v = √90  
+**v = 9.49** ✔️  
+
+**2. Magnitude #1 - 3D**  
+What is the length of v, assuming its origin is 0, 0, 0?
+
+**v** = (7, -3, -9)  
+
+**Solution**  
+v = a² + b² + c²  
+v = 7² + (-3)² + (-9)²   
+v = 49 + 9 + 81  
+v = 139  
+v = √139  
+**v = 11.79** ✔️  
