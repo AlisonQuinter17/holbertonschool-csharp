@@ -4,12 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        double[] vector1 = {98, 972};
-        double[] vector2 = {0, -16};
-        double[] vector3 = {98, 972, 4};
-        double[] vector4 = {0, -16, 31};
+        double[] vector1 = {1, 3};
+        double[] vector2 = {-2, 5};
+        double[] vector3 = {-4, 0, 10};
+        double[] vector4 = {3, 7, -9};
 
-        Console.WriteLine("{0}", VectorMath.DotProduct(vector1, scalar2));
+        Console.WriteLine("{0}", VectorMath.DotProduct(vector1, vector2));
         Console.WriteLine("{0}", VectorMath.DotProduct(vector3, vector4));
     }
 }
