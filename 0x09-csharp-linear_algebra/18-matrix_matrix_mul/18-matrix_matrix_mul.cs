@@ -17,7 +17,7 @@ class MatrixMath
                 {
                     if (j == 0)
                         matrix3[i, j] = (matrix1[i, j] * matrix2[0, j]) + (matrix1[i, j + 1] * matrix2[1, j]);
-                    if (j == 1)
+                    else
                         matrix3[i, j] = (matrix1[i, j] * matrix2[1, j]) + (matrix1[i, j - 1] * matrix2[0, j]);
                 }
             }
