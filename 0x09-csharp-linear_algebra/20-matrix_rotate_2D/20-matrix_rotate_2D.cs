@@ -9,7 +9,6 @@ class MatrixMath
         double[,] error = { { -1 } }, result = new double[2, 2];
         double[,] rotation = { { Math.Cos(angle), Math.Sin(angle) }, { -1 * Math.Sin(angle), Math.Cos(angle) } };
 
-        
         if (matrix.GetLength(0) == 2 && matrix.GetLength(1) == 2)
         {
             for (int i = 0; i < 2; i++)
