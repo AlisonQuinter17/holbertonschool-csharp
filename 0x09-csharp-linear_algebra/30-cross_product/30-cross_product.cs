@@ -8,7 +8,7 @@ class VectorMath
     {
         double[] answer = new double[3];
 
-        if (vector1.Length != 3 && vector2.Length != 3)
+        if (vector1.Length != 3 || vector2.Length != 3)
             return (new double[] { -1 });
 
         answer[0] = (vector1[1] * vector2[2]) - (vector1[2] * vector2[1]);

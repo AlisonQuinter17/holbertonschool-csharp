@@ -9,6 +9,6 @@ class Program
         double[] answer;
 
         answer = VectorMath.CrossProduct(vector1, vector2);
-        Console.WriteLine("( {0}, {1}, {2} )", answer[0], answer[1], answer[2]);
+        Console.WriteLine("({0}, {1}, {2})", answer[0], answer[1], answer[2]);
     }
 }
