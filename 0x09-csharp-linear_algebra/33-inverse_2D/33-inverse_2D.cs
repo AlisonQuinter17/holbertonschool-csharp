@@ -7,12 +7,11 @@ class MatrixMath
     public static double[,] Inverse2D(double[,] matrix)
     {
         double[,] answer = {{matrix[1, 1], -1 * matrix[0, 1]}, {-1 * matrix[1, 0], matrix[0, 0]}}, error = { { -1 } };
-        double determinat;
+        double determinat = Math.Round((matrix[0, 0] * matrix[1, 1]) - (matrix[0, 1] * matrix[1, 0]), 2);
 
-        if (matrix.GetLength(0) == 2 && matrix.GetLength(1) == 2)
+
+        if (matrix.GetLength(0) == 2 && matrix.GetLength(1) == 2 && determinat != 0)
         {
-            determinat = Math.Round((matrix[0, 0] * matrix[1, 1]) - (matrix[0, 1] * matrix[1, 0]), 2);
-
             for (int i = 0; i < answer.GetLength(0); i++)
             {
                 for (int j = 0; j < answer.GetLength(1); j++)
