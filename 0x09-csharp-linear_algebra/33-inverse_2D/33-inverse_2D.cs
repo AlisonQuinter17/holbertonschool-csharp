@@ -16,7 +16,7 @@ class MatrixMath
             {
                 for (int j = 0; j < answer.GetLength(1); j++)
                 {
-                    answer[i, j] = Math.Round((answer[i, j] / determinat), 2);
+                    answer[i, j] = Math.Round(((1 / determinat) * answer[i, j]), 2);
                 }
             }
             return (answer);
