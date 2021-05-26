@@ -6,16 +6,13 @@ class VectorMath
     /// <summary> Calculates the cross product of two 3D vectors and returns the resulting vector. </summary>
     public static double[] CrossProduct(double[] vector1, double[] vector2)
     {
-        double[,] matrix_i = { { vector1[1], vector1[2] }, { vector2[1], vector2[2] } };
-        double[,] matrix_j = { { vector1[0], vector1[2] }, { vector2[0], vector2[2] } };
-        double[,] matrix_k = { { vector1[0], vector1[1] }, { vector2[0], vector2[1] } };
         double[] answer = new double[3];
 
         if (vector1.Length == 3 && vector2.Length == 3)
         {
-            answer[0] = (matrix_i[0, 0] * matrix_i[1, 1]) - (matrix_i[0, 1] * matrix_i[1, 0]);
-            answer[1] = (matrix_j[0, 0] * matrix_j[1, 1]) - (matrix_j[0, 1] * matrix_j[1, 0]);
-            answer[2] = (matrix_k[0, 0] * matrix_k[1, 1]) - (matrix_k[0, 1] * matrix_k[1, 0]);
+            answer[0] = vector1[1] * vector2[2] - vector1[2] * vector2[1];
+            answer[1] = vector1[0] * vector2[2] - vector1[2] * vector2[0];
+            answer[2] = vector1[0] * vector2[1] - vector1[1] * vector2[0];
             return (answer);
         }
         else
