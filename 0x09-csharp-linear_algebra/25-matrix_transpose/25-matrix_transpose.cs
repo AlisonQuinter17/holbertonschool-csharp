@@ -6,9 +6,9 @@ class MatrixMath
     /// <summary> Transpose a matrix and return the resulting matrix. </summary>
     public static double[,] Transpose(double[,] matrix)
     {
-        double[,] error = { {} }, result = new double[matrix.GetLength(1), matrix.GetLength(0)];
+        double[,] empty = { {} }, result = new double[matrix.GetLength(1), matrix.GetLength(0)];
 
-        if (matrix.Length != 0)
+        if (matrix.GetLength(0) != 0)
         {
             for (int i = 0; i < matrix.GetLength(0); i++)
             {
@@ -20,6 +20,6 @@ class MatrixMath
             return (result);
         }
         else
-            return (error);
+            return (empty);
     }
 }
