@@ -6,7 +6,7 @@ class MatrixMath
     /// <summary> Calculates the determinant of a matrix. </summary>
     public static double Determinant(double[,] matrix)
     {
-        double left, right;
+        double left = 0, right = 0;
 
         if (matrix.GetLength(0) == 2 && matrix.GetLength(1) == 2)
         {
