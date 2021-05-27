@@ -9,15 +9,10 @@ class MatrixMath
         double determinat;
         double [,] error = new double[,] { { -1 } };
         double [,] answer = new double[2, 2];
-        double [,] inverse = new double[2, 2];
+        double [,] inverse = {{matrix[1, 1], -1 * matrix[0, 1]}, {-1 * matrix[1, 0], matrix[0, 0]}};
         
         if (matrix.GetLength(0) != 2 || matrix.GetLength(1) != 2)
             return (error);
-
-        inverse[0, 0] = matrix[1, 1];
-        inverse[0, 1] = -1 * matrix[0, 1];
-        inverse[1, 0] = -1 * matrix[1, 0];
-        inverse[1, 1] = matrix[0, 0];
 
         determinat = Math.Round((matrix[0, 0] * matrix[1, 1]) - (matrix[0, 1] * matrix[1, 0]), 2);
 
