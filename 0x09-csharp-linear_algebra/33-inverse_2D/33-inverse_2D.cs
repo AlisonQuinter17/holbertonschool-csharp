@@ -6,9 +6,8 @@ class MatrixMath
     /// <summary> Calculates the inverse of a 2D matrix and returns the resulting matrix. </summary>
     public static double[,] Inverse2D(double[,] matrix)
     {
+        double [,] answer, error = { { -1 } };
         double determinat;
-        double [,] error = new double[,] { { -1 } };
-        double [,] answer;
         
         if (matrix.GetLength(0) != 2 || matrix.GetLength(1) != 2)
             return (error);
