@@ -147,3 +147,15 @@ The return value should be rounded to the nearest hundredth
 
 **Solution**  
 File: **3-magnitude** ✔️  
+
+**4. Vector addition #0 - 2D**  
+What is the sum of the 2D vectors v and u?
+
+**v** = (8, -11)  
+**u** = (-4, 9)  
+
+<img src="https://github.com/AlisonQuinter17/holbertonschool-csharp/blob/main/0x09-csharp-linear_algebra/images/4-vector_addition_2D.png" class="responsive" width="400px"/>
+
+**Solution**  
+v + u = ((8 + (-4)), ((-11) + 9))  
+**v + u = (4, -2)** ✔️  
