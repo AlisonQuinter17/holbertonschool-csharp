@@ -175,3 +175,23 @@ Method that adds two vectors and returns the resulting vector.
 - If any vector is not a 2D or 3D vector, or if the vectors are not of the same size, return a vector containing -1  
 
 File: **6-vector_addition** ✔️  
+
+**7. Vector-scalar multiplication #0 - 2D**  
+What is the result of multiplying the 2D vector v and scalar x?
+
+**v** = (98, 972)  
+**x** = 0.5  
+
+**Solution**  
+v × x = ((98 × 0.5), (972 × 0.5))  
+**v × x = (49, 486)** ✔️  
+
+**8. Vector-scalar multiplication #1 - 3D**  
+What is the result of multiplying the 3D vector v and scalar x?
+
+v = (0, -16, 31)  
+x = 4  
+
+**Solution**  
+v × x = ((0 × 4), (-16 × 4), (31 × 4))  
+**v × x = (0, -64, 124)** ✔️  
