@@ -189,8 +189,8 @@ v × x = ((98 × 0.5), (972 × 0.5))
 ### **8. Vector-scalar multiplication #1 - 3D**  
 What is the result of multiplying the 3D vector v and scalar x?
 
-v = (0, -16, 31)  
-x = 4  
+**v** = (0, -16, 31)  
+**x** = 4  
 
 **Solution**  
 v × x = ((0 × 4), (-16 × 4), (31 × 4))  
@@ -207,8 +207,8 @@ File: **9-vector_scalar_mul** ✔️
 ### **10. Dot product #0 - 2D**  
 What is the dot product of v and u?
 
-v = (1, 3)  
-u = (-2, 5)  
+**v** = (1, 3)  
+**u** = (-2, 5)    
 
 <img src="https://github.com/AlisonQuinter17/holbertonschool-csharp/blob/main/0x09-csharp-linear_algebra/images/10-dot_product_2D.png" class="responsive" width="400px"/>
 
