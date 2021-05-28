@@ -146,7 +146,7 @@ Method that calculates and returns the length of a given vector.
 **Solution**  
 File: **3-magnitude** ✔️  
 
-**4. Vector addition #0 - 2D**  
+### **4. Vector addition #0 - 2D**  
 What is the sum of the 2D vectors v and u?
 
 **v** = (8, -11)  
@@ -158,7 +158,7 @@ What is the sum of the 2D vectors v and u?
 v + u = ((8 + (-4)), ((-11) + 9))  
 **v + u = (4, -2)** ✔️  
 
-**5. Vector addition #1 - 3D**  
+### **5. Vector addition #1 - 3D**  
 What is the sum of the 3D vectors v and u?
 
 **v** = (14, -2, 0)  
@@ -168,7 +168,7 @@ What is the sum of the 3D vectors v and u?
 v + u = ((14 + (-2) + 0), ((-3) + 23 + 50))  
 **v + u = (11, 21, 50)** ✔️  
 
-**6. Vector addition #2**  
+### **6. Vector addition #2**  
 Method that adds two vectors and returns the resulting vector.
 
 - The vectors can be 2D or 3D  
@@ -176,7 +176,7 @@ Method that adds two vectors and returns the resulting vector.
 
 File: **6-vector_addition** ✔️  
 
-**7. Vector-scalar multiplication #0 - 2D**  
+### **7. Vector-scalar multiplication #0 - 2D**  
 What is the result of multiplying the 2D vector v and scalar x?
 
 **v** = (98, 972)  
@@ -186,7 +186,7 @@ What is the result of multiplying the 2D vector v and scalar x?
 v × x = ((98 × 0.5), (972 × 0.5))  
 **v × x = (49, 486)** ✔️  
 
-**8. Vector-scalar multiplication #1 - 3D**  
+### **8. Vector-scalar multiplication #1 - 3D**  
 What is the result of multiplying the 3D vector v and scalar x?
 
 v = (0, -16, 31)  
@@ -196,7 +196,7 @@ x = 4
 v × x = ((0 × 4), (-16 × 4), (31 × 4))  
 **v × x = (0, -64, 124)** ✔️  
 
-**9. Vector-scalar multiplication #2**  
+### **9. Vector-scalar multiplication #2**  
 Create a method that multiplies a vector and a scalar and returns the resulting vector.
 
 - The vectors can be 2D or 3D  
@@ -209,6 +209,8 @@ What is the dot product of v and u?
 
 v = (1, 3)  
 u = (-2, 5)  
+
+<img src="https://github.com/AlisonQuinter17/holbertonschool-csharp/blob/main/0x09-csharp-linear_algebra/images/10-dot_product_2D.png" class="responsive" width="400px"/>
 
 **Solution**  
 v . u = (1 × (-2)) + (3 × 5)  
