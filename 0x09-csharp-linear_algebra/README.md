@@ -137,13 +137,11 @@ v = √139
 **v = 11.79** ✔️  
 
 **3. Magnitude #2**  
-Create a method that calculates and returns the length of a given vector.
-
-Class: **VectorMath**  
-Prototype: **public static double Magnitude(double[] vector)**  
-The vector can be 2D or 3D  
-If the vector is not a 2D or 3D vector, return -1  
-The return value should be rounded to the nearest hundredth  
+Method that calculates and returns the length of a given vector.
+ 
+- The vector can be 2D or 3D  
+- If the vector is not a 2D or 3D vector, return -1  
+- The return value should be rounded to the nearest hundredth  
 
 **Solution**  
 File: **3-magnitude** ✔️  
@@ -169,3 +167,11 @@ What is the sum of the 3D vectors v and u?
 **Solution**  
 v + u = ((14 + (-2) + 0), ((-3) + 23 + 50))  
 **v + u = (11, 21, 50)** ✔️  
+
+**6. Vector addition #2**  
+Method that adds two vectors and returns the resulting vector.
+
+- The vectors can be 2D or 3D  
+- If any vector is not a 2D or 3D vector, or if the vectors are not of the same size, return a vector containing -1  
+
+File: **6-vector_addition** ✔️  
