@@ -159,3 +159,13 @@ What is the sum of the 2D vectors v and u?
 **Solution**  
 v + u = ((8 + (-4)), ((-11) + 9))  
 **v + u = (4, -2)** ✔️  
+
+**5. Vector addition #1 - 3D**  
+What is the sum of the 3D vectors v and u?
+
+**v** = (14, -2, 0)  
+**u** = (-3, 23, 50)  
+
+**Solution**  
+v + u = ((14 + (-2) + 0), ((-3) + 23 + 50))  
+**v + u = (11, 21, 50)** ✔️  
