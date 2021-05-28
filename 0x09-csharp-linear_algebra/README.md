@@ -314,6 +314,39 @@ What is the result of multiplying the two matrices M and N?
 **N** =  
 (1, 7)  
 (-8, -2)  
+
+**Solution**  
+M × N=  
+
+| M | M | Mul | N | N | Result |   Answer  |   Answer  |
+|:-:|:-:|:---------:|:-:|:-:|:------:|:---------:|:---------:|
+| a | b |     ×     | e | f |    =   | (a×e) + (b×g) | (a×f) + (b×h) |
+| c | d |     ×     | g | h |    =   | (c×e) + (d×g) |  (c×f) + (d×h) |
+
+M × N=  
+
+| M | M | Mul | N | N | Result |   Answer  |   Answer  |
+|:-:|:-:|:---------:|:-:|:-:|:------:|:---------:|:---------:|
+| 2 | 3 |     ×     | 1 | 7 |    =   | (2×1) + (3×(-8)) | (2×7) + (3×(-2)) |
+| -1 | 0 |     ×     | -8 | -2 |    =   | ((-1)×1) + (0×(-8)) |  ((-1)×7) + (0×(-2)) |
+
+M × N=  
+
+| M | M | Mul | N | N | Result |   Answer  |   Answer  |
+|:-:|:-:|:---------:|:-:|:-:|:------:|:---------:|:---------:|
+| 2 | 3 |     ×     | 1 | 7 |    =   | (2) + (-24) | (14) + (-6) |
+| -1 | 0 |     ×     | -8 | -2 |    =   | (-1) + (0) |  (-7) + (0) |
+
+M × N=  
+
+| M | M | Mul | N | N | Result |   Answer  |   Answer  |
+|:-:|:-:|:---------:|:-:|:-:|:------:|:---------:|:---------:|
+| 2 | 3 |     ×     | 1 | 7 |    =   | -22 | 8 |
+| -1 | 0 |     ×     | -8 | -2 |    =   | -1 |  -7 |
+
+**M × N =  
+(-22, 8)
+(-1, -7)** ✔️   
    
 ### **18. Matrix-matrix multiplication #1**  
 Method that multiplies two matrices and returns the resulting matrix.  
@@ -374,7 +407,7 @@ What is the determinant of matrix M?
 (2, 2)  
 (-9, 4)  
    
-###**25. Determinant #1**  
+### **25. Determinant #1**  
 What is the determinant of matrix M?  
 
 **M** =  
