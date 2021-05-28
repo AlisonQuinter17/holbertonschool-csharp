@@ -197,7 +197,7 @@ v × x = ((0 × 4), (-16 × 4), (31 × 4))
 **v × x = (0, -64, 124)** ✔️  
 
 ### **9. Vector-scalar multiplication #2**  
-Create a method that multiplies a vector and a scalar and returns the resulting vector.
+Method that multiplies a vector and a scalar and returns the resulting vector.
 
 - The vectors can be 2D or 3D  
 - If any vector is not a 2D or 3D vector, return a vector containing -1
@@ -227,3 +227,35 @@ What is the dot product of v and u?
 v . u = ((-4) × 3) + (0 × 7) + (10 × (-9))  
 v . u = (-12) + (0) + (-90)   
 **v . u = -102** ✔️  
+
+### **12. Dot product #2**  
+Method that calculates dot product of either two 2D or two 3D vectors.
+
+- The vectors can be either both 2D or both 3D  
+- If any vector is not a 2D or 3D vector, or both vectors are not the same size, return -1
+
+File: **12-dot_product** ✔️  
+
+**13. Matrix addition #0**  
+What is the result of adding the two matrices M and N?
+
+**M** =  
+(14, -3, 0)  
+(-11, -5, 3)  
+(2, -9, 13)  
+
+**N** =  
+(6, 16, 21)  
+(5, 2, 0)  
+(1, 3, 7)  
+
+**Solution**  
+M + N =  
+((14 + 6),    ((-3) + 16),   (0 + 21))  
+(((-11) + 5),   ((-5) + 2),   (3 + 0))  
+((2 + 1),   ((-9) + 3),   (13 + 7))  
+
+**M + N =  
+(20, 13, 21)  
+(-6, -3, 3)  
+(3, -6, 20)** ✔️  
