@@ -216,3 +216,14 @@ What is the dot product of v and u?
 v . u = (1 × (-2)) + (3 × 5)  
 v . u = (-2) + (15)  
 **v . u = 13** ✔️  
+
+### **11. Dot product #1 - 3D**  
+What is the dot product of v and u?
+
+**v** = (-4, 0, 10)  
+**u** = (3, 7, -9)  
+
+**Solution**  
+v . u = ((-4) × 3) + (0 × 7) + (10 × (-9))  
+v . u = (-12) + (0) + (-90)   
+**v . u = -102** ✔️  
