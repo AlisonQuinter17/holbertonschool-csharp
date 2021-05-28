@@ -412,6 +412,60 @@ Shear the matrix M by the shear factor s in the **X direction**. What is the res
 (3, 4)  
 
 **s** = 2  
+  
+Directions:  
+
+| X |  X |
+|:-:|:-:|
+| 1 | s |
+| 0 | 1 |
+
+| Y |  Y |
+|:-:|:-:|
+| 1 | 0 |
+| s | 1 |
+
+**Solution**
+
+**R=**  
+| **x** | = | **1 s** | | **x** |  
+| **y** | = | **0 1** | | **y** |  
+
+R= (1, 2)  
+| x | = | 1 2 | | 1 |  
+| y | = | 0 1 | | 2 |  
+
+R= (1, 2)  
+| x | = | (1×1) + (2×2) | | 1 |  
+| y | = | (0×1) + (1×2) | | 2 |  
+
+R= (1, 2)  
+| x | = | (1) + (4) |  
+| y | = | (0) + (2) |  
+
+R= (1, 2)  
+| x | = | 5 |  **For (1, 2) the**  
+| y | = | 2 |  **answer is (5, 2)**  
+<hr>
+R= (3, 4)  
+| x | = | 1 2 | | 3 |  
+| y | = | 0 1 | | 4 |  
+
+R= (3, 4)  
+| x | = | (1×3) + (2×4) | | 3 |  
+| y | = | (0×3) + (1×4) | | 4 |  
+
+R= (3, 4)  
+| x | = | (3) + (8) |  
+| y | = | (0) + (4) |  
+
+R= (3, 4)  
+| x | = | 11 |  **For (3, 4) the**  
+| y | = | 4 |  **answer is (11, 4)**  
+
+**R=  
+(5, 2)  
+(11, 4)** ✔️  
    
 ### **22. Matrix shear #1**  
 Method that shears a square 2D matrix by a given shear factor and returns the resulting matrix.  
