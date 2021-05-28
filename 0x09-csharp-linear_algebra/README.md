@@ -371,14 +371,29 @@ Rotate the matrix M by angle θ (in radians). What is the resulting matrix?
 |:-------------:|:-----------:|
 |     -1.57     |     -90°    |
 
-R =  
+R(-θ) =  
 
 [ Cos(θ) - Sin(θ) ] [ x ] = [ x Cos(θ) - y Sin(θ) ]  
-[ Sin(θ) + Cos(θ) ] [ y ] = [ x Sin(θ) + y Cos(θ) ]  
+[ Sin(θ)  Cos(θ) ] [ y ] = [ x Sin(θ) + y Cos(θ) ]  
+
+R(-θ) =  
+
+[ Cos(θ) - Sin(θ) ]  
+[ Sin(θ)  Cos(θ) ]  
+
+R(-θ) =  
+
+[ x¹ ] [ Cos(θ) - Sin(θ) ] [ x ]  
+[ y¹ ] [ Sin(θ)  Cos(θ) ] [ y ]  
+
+R(-θ) =  
+
+x¹  =  Cos(θ) - Sin(θ)  
+y¹  = Sin(θ) + Cos(θ)  
 
 **R=  
 (2, -1)  
-(4, -3)** ✔️   
+(4, -3)** ✔️  
    
 ### **20. Matrix rotation #1**  
 Method that rotates a square 2D matrix by a given angle in radians and returns the resulting matrix.  
