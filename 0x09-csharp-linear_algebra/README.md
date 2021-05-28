@@ -135,3 +135,15 @@ v = 49 + 9 + 81
 v = 139  
 v = √139  
 **v = 11.79** ✔️  
+
+**3. Magnitude #2**  
+Create a method that calculates and returns the length of a given vector.
+
+- Class: **VectorMath**  
+- Prototype: **public static double Magnitude(double[] vector)**  
+- The vector can be 2D or 3D  
+- If the vector is not a 2D or 3D vector, return -1  
+- The return value should be rounded to the nearest hundredth  
+
+**Solution**  
+File: **3-magnitude** ✔️  
