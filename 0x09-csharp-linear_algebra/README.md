@@ -236,7 +236,7 @@ Method that calculates dot product of either two 2D or two 3D vectors.
 
 File: **12-dot_product** ✔️  
 
-**13. Matrix addition #0**  
+### **13. Matrix addition #0**  
 What is the result of adding the two matrices M and N?
 
 **M** =  
@@ -264,3 +264,13 @@ M + N =
 (20, 13, 21)  
 (-6, -3, 3)  
 (3, -6, 20)** ✔️  
+
+### 14. Matrix addition #1  
+Method that adds two matrices and returns the resulting matrix.
+
+- The matrices can be either both 2D or both 3D  
+- 2D ex.: double[,] matrix = { { 1, 2 }, { 3, 4 } };  
+- 3D ex.: double[,] matrix = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };  
+- If any matrix is not a 2D or 3D matrix, or both matrices are not the same size, return a matrix containing -1
+
+File: **14-matrix_addition** ✔️  
