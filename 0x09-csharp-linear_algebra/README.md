@@ -96,7 +96,7 @@ A determinant is:
 
 ## Tasks
 
-**0. Pythagoras**  
+### **0. Pythagoras**  
 Given the triangle ABC where **AB = 64** and **BC = 121**, what is the length of **AC**?
 
 <img src="https://github.com/AlisonQuinter17/holbertonschool-csharp/blob/main/0x09-csharp-linear_algebra/images/pythagoras.png" class="responsive" width="400px"/>
@@ -109,7 +109,7 @@ x² = 18,737
 x = √18,737  
 **x = 136.88** ✔️  
 
-**1. Magnitude #0 - 2D**  
+### **1. Magnitude #0 - 2D**  
 What is the length of vector v, assuming its origin is 0, 0?
 
 **v** = (3, 9)  
@@ -123,7 +123,7 @@ v = 90
 v = √90  
 **v = 9.49** ✔️  
 
-**2. Magnitude #1 - 3D**  
+### **2. Magnitude #1 - 3D**  
 What is the length of v, assuming its origin is 0, 0, 0?
 
 **v** = (7, -3, -9)  
@@ -136,7 +136,7 @@ v = 139
 v = √139  
 **v = 11.79** ✔️  
 
-**3. Magnitude #2**  
+### **3. Magnitude #2**  
 Method that calculates and returns the length of a given vector.
  
 - The vector can be 2D or 3D  
@@ -195,3 +195,22 @@ x = 4
 **Solution**  
 v × x = ((0 × 4), (-16 × 4), (31 × 4))  
 **v × x = (0, -64, 124)** ✔️  
+
+**9. Vector-scalar multiplication #2**  
+Create a method that multiplies a vector and a scalar and returns the resulting vector.
+
+- The vectors can be 2D or 3D  
+- If any vector is not a 2D or 3D vector, return a vector containing -1
+
+File: **9-vector_scalar_mul** ✔️  
+
+### **10. Dot product #0 - 2D**  
+What is the dot product of v and u?
+
+v = (1, 3)  
+u = (-2, 5)  
+
+**Solution**  
+v . u = (1 × (-2)) + (3 × 5)  
+v . u = (-2) + (15)  
+**v . u = 13** ✔️  
