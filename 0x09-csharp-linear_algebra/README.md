@@ -274,3 +274,153 @@ Method that adds two matrices and returns the resulting matrix.
 - If any matrix is not a 2D or 3D matrix, or both matrices are not the same size, return a matrix containing -1
 
 File: **14-matrix_addition** ✔️  
+
+### **15. Matrix-scalar multiplication #0**  
+What is the result of multiplying the matrix M and scalar x?
+
+**M** =  
+(-13, 10, 8)  
+(2, 0, 14)  
+(-4, -5, 2)  
+
+***x*** = 4  
+
+**Solution**  
+M × *x* =  
+(((-13) ×  4), (10 ×  4), (8 ×  4))  
+((2 ×  4), (0 ×  4), (14 ×  4))  
+(((-4) ×  4), ((-5) ×  4), (2 ×  4))  
+
+**M + *x* =  
+(-52, 40, 32)  
+(8, 0, 56)  
+(-16, -20, 8)** ✔️  
+
+### **16. Matrix-scalar multiplication #1**  
+Method that multiplies a matrix and a scalar and returns the resulting matrix.
+
+- The matrix can be either 2D or 3D  
+- If the matrix is not a 2D or 3D matrix, return a matrix containing -1  
+
+File: **16-matrix_scalar_mul** ✔️  
+   
+### **17. Matrix-matrix multiplication #0**  
+What is the result of multiplying the two matrices M and N?  
+
+**M** =  
+(2, 3)  
+(-1, 0)  
+
+**N** =  
+(1, 7)  
+(-8, -2)  
+   
+### **18. Matrix-matrix multiplication #1**  
+Method that multiplies two matrices and returns the resulting matrix.  
+
+- The matrices will not necessarily be square or the same dimensions  
+- If the matrices cannot be multiplied, return a matrix containing -1  
+
+File: **18-matrix_matrix_mul** ✔️  
+   
+### **19. Matrix rotation #0**  
+Rotate the matrix M by angle θ (in radians). What is the resulting matrix?  
+
+**M** =  
+(1, 2)  
+(3, 4)  
+
+**θ** = -1.57  
+   
+### **20. Matrix rotation #1**  
+Method that rotates a square 2D matrix by a given angle in radians and returns the resulting matrix.  
+
+**NOTE:** “Rotation” in this context means to apply rotation to the value of each element in the matrix, not changing the positions of the values in the matrix.  
+
+- If the matrix is of an invalid size, return a matrix containing -1  
+
+File: **20-matrix_rotate_2D** ✔️  
+   
+### **21. Matrix shear #0**  
+Shear the matrix M by the shear factor s in the **X direction**. What is the resulting matrix?
+
+**M** =  
+(1, 2)  
+(3, 4)  
+
+**s** = 2  
+   
+### **22. Matrix shear #1**  
+Method that shears a square 2D matrix by a given shear factor and returns the resulting matrix.  
+
+- The shear factor can be in either the X or Y direction but not both  
+- If the matrix is of an invalid size, return a matrix containing -1  
+- If given an axis that is not x or y, return a matrix containing -1  
+
+File: **24-matrix_shear_2D** ✔️  
+   
+### **23. Transpose matrix**  
+Method to transpose a matrix and return the resulting matrix.  
+
+- The matrix can be of any dimension or size  
+- If the matrix is empty, return an empty matrix  
+
+File: **25-matrix_transpose** ✔️  
+   
+### **24. Determinant #0**  
+What is the determinant of matrix M?  
+
+**M** =  
+(2, 2)  
+(-9, 4)  
+   
+###**25. Determinant #1**  
+What is the determinant of matrix M?  
+
+**M** =  
+(-4, 9, 0)  
+(1, -2, 1)  
+(3, -4, 2)  
+   
+### **26. Determinant #3**  
+Method that calculates the determinant of a matrix.  
+
+- If the matrix is not 2D or 3D, return -1  
+
+File: **28-determinant** ✔️  
+   
+### **27. Cross product #0**  
+What is the cross product of v and u?  
+
+**v** = (2, -2, 1)  
+**u** = (-8, 8, -4)  
+   
+### **28. Cross product #1**  
+Method that calculates the cross product of two 3D vectors and returns the resulting vector.  
+
+- If either vector is not a 3D vector, return a vector containing -1  
+
+File: **30-cross_product** ✔️  
+   
+### **29. Inverse #0**  
+What is the inverse of M?  
+
+**M** =  
+(1, 2)  
+(3, 4)  
+   
+### **30. Inverse #1**  
+What is the inverse of M? Round to the nearest hundredth.
+
+**M** =  
+(11, 8, 7)  
+(2, 13, 1)  
+(4, 0, 17)  
+   
+### **31. Inverse #2**  
+Method that calculates the inverse of a 2D matrix and returns the resulting matrix.
+
+- If the matrix is not a 2D matrix, return [-1]  
+- If the matrix is non-invertible, return [-1]  
+
+File: **33-inverse_2D** ✔️  
