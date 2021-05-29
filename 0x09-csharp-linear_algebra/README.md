@@ -691,3 +691,7 @@ Method that calculates the inverse of a 2D matrix and returns the resulting matr
 - If the matrix is non-invertible, return [-1]  
 
 File: **33-inverse_2D** ✔️  
+
+
+# Author
+Alison Quintero - https://twitter.com/AlisonQuinter17
