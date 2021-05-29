@@ -108,7 +108,9 @@ x² = 4,096 + 14,641
 x² = 18,737  
 x = √18,737  
 **x = 136.88** ✔️  
+
 <hr>
+
 ### **1. Magnitude #0 - 2D**  
 What is the length of vector v, assuming its origin is 0, 0?
 
@@ -122,7 +124,9 @@ v = 9 + 81
 v = 90  
 v = √90  
 **v = 9.49** ✔️  
+
 <hr>
+
 ### **2. Magnitude #1 - 3D**  
 What is the length of v, assuming its origin is 0, 0, 0?
 
@@ -135,7 +139,9 @@ v = 49 + 9 + 81
 v = 139  
 v = √139  
 **v = 11.79** ✔️  
+
 <hr>
+
 ### **3. Magnitude #2**  
 Method that calculates and returns the length of a given vector.
  
@@ -144,8 +150,10 @@ Method that calculates and returns the length of a given vector.
 - The return value should be rounded to the nearest hundredth  
 
 **Solution**  
-File: **3-magnitude** ✔️  
+File: **3-magnitude** ✔️ 
+
 <hr>
+
 ### **4. Vector addition #0 - 2D**  
 What is the sum of the 2D vectors v and u?
 
@@ -157,7 +165,9 @@ What is the sum of the 2D vectors v and u?
 **Solution**  
 v + u = ((8 + (-4)), ((-11) + 9))  
 **v + u = (4, -2)** ✔️  
+
 <hr>
+
 ### **5. Vector addition #1 - 3D**  
 What is the sum of the 3D vectors v and u?
 
@@ -167,15 +177,19 @@ What is the sum of the 3D vectors v and u?
 **Solution**  
 v + u = ((14 + (-2) + 0), ((-3) + 23 + 50))  
 **v + u = (11, 21, 50)** ✔️  
+
 <hr>
+
 ### **6. Vector addition #2**  
 Method that adds two vectors and returns the resulting vector.
 
 - The vectors can be 2D or 3D  
 - If any vector is not a 2D or 3D vector, or if the vectors are not of the same size, return a vector containing -1  
 
-File: **6-vector_addition** ✔️  
+File: **6-vector_addition** ✔️ 
+
 <hr>
+
 ### **7. Vector-scalar multiplication #0 - 2D**  
 What is the result of multiplying the 2D vector v and scalar x?
 
@@ -185,7 +199,9 @@ What is the result of multiplying the 2D vector v and scalar x?
 **Solution**  
 v × x = ((98 × 0.5), (972 × 0.5))  
 **v × x = (49, 486)** ✔️  
+
 <hr>
+
 ### **8. Vector-scalar multiplication #1 - 3D**  
 What is the result of multiplying the 3D vector v and scalar x?
 
@@ -195,7 +211,9 @@ What is the result of multiplying the 3D vector v and scalar x?
 **Solution**  
 v × x = ((0 × 4), (-16 × 4), (31 × 4))  
 **v × x = (0, -64, 124)** ✔️  
+
 <hr>
+
 ### **9. Vector-scalar multiplication #2**  
 Method that multiplies a vector and a scalar and returns the resulting vector.
 
@@ -203,7 +221,9 @@ Method that multiplies a vector and a scalar and returns the resulting vector.
 - If any vector is not a 2D or 3D vector, return a vector containing -1
 
 File: **9-vector_scalar_mul** ✔️  
+
 <hr>
+
 ### **10. Dot product #0 - 2D**  
 What is the dot product of v and u?
 
@@ -216,7 +236,9 @@ What is the dot product of v and u?
 v . u = (1 × (-2)) + (3 × 5)  
 v . u = (-2) + (15)  
 **v . u = 13** ✔️  
+
 <hr>
+
 ### **11. Dot product #1 - 3D**  
 What is the dot product of v and u?
 
@@ -227,7 +249,9 @@ What is the dot product of v and u?
 v . u = ((-4) × 3) + (0 × 7) + (10 × (-9))  
 v . u = (-12) + (0) + (-90)   
 **v . u = -102** ✔️  
+
 <hr>
+
 ### **12. Dot product #2**  
 Method that calculates dot product of either two 2D or two 3D vectors.
 
@@ -235,7 +259,9 @@ Method that calculates dot product of either two 2D or two 3D vectors.
 - If any vector is not a 2D or 3D vector, or both vectors are not the same size, return -1
 
 File: **12-dot_product** ✔️  
+
 <hr>
+
 ### **13. Matrix addition #0**  
 What is the result of adding the two matrices M and N?
 
@@ -264,7 +290,9 @@ M + N =
 (20, 13, 21)  
 (-6, -3, 3)  
 (3, -6, 20)** ✔️  
+
 <hr>
+
 ### 14. Matrix addition #1  
 Method that adds two matrices and returns the resulting matrix.
 
@@ -274,7 +302,9 @@ Method that adds two matrices and returns the resulting matrix.
 - If any matrix is not a 2D or 3D matrix, or both matrices are not the same size, return a matrix containing -1
 
 File: **14-matrix_addition** ✔️  
+
 <hr>
+
 ### **15. Matrix-scalar multiplication #0**  
 What is the result of multiplying the matrix M and scalar x?
 
@@ -295,7 +325,9 @@ M × *x* =
 (-52, 40, 32)  
 (8, 0, 56)  
 (-16, -20, 8)** ✔️  
+
 <hr>
+
 ### **16. Matrix-scalar multiplication #1**  
 Method that multiplies a matrix and a scalar and returns the resulting matrix.
 
@@ -303,7 +335,9 @@ Method that multiplies a matrix and a scalar and returns the resulting matrix.
 - If the matrix is not a 2D or 3D matrix, return a matrix containing -1  
 
 File: **16-matrix_scalar_mul** ✔️  
+
 <hr>
+
 ### **17. Matrix-matrix multiplication #0**  
 What is the result of multiplying the two matrices M and N?  
 
@@ -347,7 +381,9 @@ M × N=
 **M × N =  
 (-22, 8)  
 (-1, -7)** ✔️   
+
 <hr>
+
 ### **18. Matrix-matrix multiplication #1**  
 Method that multiplies two matrices and returns the resulting matrix.  
 
@@ -355,7 +391,9 @@ Method that multiplies two matrices and returns the resulting matrix.
 - If the matrices cannot be multiplied, return a matrix containing -1  
 
 File: **18-matrix_matrix_mul** ✔️  
+
 <hr>
+
 ### **19. Matrix rotation #0**  
 Rotate the matrix M by angle θ (in radians). What is the resulting matrix?  
 
@@ -394,7 +432,9 @@ y¹  = Sin(θ) + Cos(θ)
 **R=  
 (2, -1)  
 (4, -3)** ✔️  
+
 <hr>
+
 ### **20. Matrix rotation #1**  
 Method that rotates a square 2D matrix by a given angle in radians and returns the resulting matrix.  
 
@@ -403,7 +443,9 @@ Method that rotates a square 2D matrix by a given angle in radians and returns t
 - If the matrix is of an invalid size, return a matrix containing -1  
 
 File: **20-matrix_rotate_2D** ✔️  
+
 <hr>
+
 ### **21. Matrix shear #0**  
 Shear the matrix M by the shear factor s in the **X direction**. What is the resulting matrix?
 
@@ -465,8 +507,10 @@ R= (3, 4)
 
 **R=  
 (5, 2)  
-(11, 4)** ✔️  
+(11, 4)** ✔️ 
+
 <hr>
+
 ### **22. Matrix shear #1**  
 Method that shears a square 2D matrix by a given shear factor and returns the resulting matrix.  
 
@@ -475,7 +519,9 @@ Method that shears a square 2D matrix by a given shear factor and returns the re
 - If given an axis that is not x or y, return a matrix containing -1  
 
 File: **24-matrix_shear_2D** ✔️  
+
 <hr>
+
 ### **23. Transpose matrix**  
 Method to transpose a matrix and return the resulting matrix.  
 
@@ -483,14 +529,18 @@ Method to transpose a matrix and return the resulting matrix.
 - If the matrix is empty, return an empty matrix  
 
 File: **25-matrix_transpose** ✔️  
+
 <hr>
+
 ### **24. Determinant #0**  
 What is the determinant of matrix M?  
 
 **M** =  
 (2, 2)  
 (-9, 4)  
+
 <hr>
+
 ### **25. Determinant #1**  
 What is the determinant of matrix M?  
 
@@ -498,20 +548,26 @@ What is the determinant of matrix M?
 (-4, 9, 0)  
 (1, -2, 1)  
 (3, -4, 2)  
+
 <hr>
+
 ### **26. Determinant #3**  
 Method that calculates the determinant of a matrix.  
 
 - If the matrix is not 2D or 3D, return -1  
 
 File: **28-determinant** ✔️  
+
 <hr>
+
 ### **27. Cross product #0**  
 What is the cross product of v and u?  
 
 **v** = (2, -2, 1)  
 **u** = (-8, 8, -4)  
+
 <hr>
+
 ### **28. Cross product #1**  
 Method that calculates the cross product of two 3D vectors and returns the resulting vector.  
 
@@ -525,7 +581,9 @@ What is the inverse of M?
 **M** =  
 (1, 2)  
 (3, 4)  
+
 <hr>
+
 ### **30. Inverse #1**  
 What is the inverse of M? Round to the nearest hundredth.
 
@@ -533,7 +591,9 @@ What is the inverse of M? Round to the nearest hundredth.
 (11, 8, 7)  
 (2, 13, 1)  
 (4, 0, 17)  
+
 <hr>
+
 ### **31. Inverse #2**  
 Method that calculates the inverse of a 2D matrix and returns the resulting matrix.
 
