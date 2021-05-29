@@ -617,14 +617,33 @@ Method that calculates the cross product of two 3D vectors and returns the resul
 
 - If either vector is not a 3D vector, return a vector containing -1  
 
-File: **30-cross_product** ✔️  
+File: **30-cross_product** ✔️ 
+
 <hr>
+
 ### **29. Inverse #0**  
 What is the inverse of M?  
 
 **M** =  
 (1, 2)  
 (3, 4)  
+
+determinant = -2
+
+**Solution**  
+**M⁻¹ =  1 / determinant**    
+
+1/-2 × **M** =  
+(4, 2)  
+(3, 1)  
+
+**M** =  
+((4/-2), (-2/-2))  
+((-3/-2), (1/-2))  
+
+**M** =  
+(-2, 1)  
+(1.5, -0.5) ✔️  
 
 <hr>
 
